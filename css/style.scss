@@ -1,0 +1,26 @@
+.fbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fbox .con:not(:nth-child(2)) {
+  width: 40%;
+}
+
+.fbox .con:nth-child(2) {
+  width: 10%;
+}
+
+.fbox .con img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
